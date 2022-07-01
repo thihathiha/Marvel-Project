@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url('../assets/img/mintro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* Start Header Icon */
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Header Icon */
+
+/* Start Nav */
+.menuicons{
+    cursor: pointer;
+    position: relative;
+}
+
+.menuicons::before{
+    content: '\f062 Tap the icon';
+    color: #111;
+    font-family: "Font Awesome 5 Free";
+    width: 120%;
+    height: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    transform: translateX(-10px) translateY(75px);
+
+    animation: menuiconsani 2.5s infinite;
+
+}
+
+@keyframes menuiconsani{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.menuitems{
+    color: #fff;
+    background-color: #585959;
+    text-align: center;
+    border: 1px solid #fff;
+    border-right: none; 
+    padding: 8px 15px;
+
+    position: relative;
+
+    transition: all 0.3s;
+}
+
+.menuitems:hover{
+    color: #000;
+    background-color: #cfd4d1;
+}
+
+.menuitems::before{
+    content: '';
+    width: 14px;
+    height: 94%;
+    background-color: #585959;
+    border: 1px solid #fff;
+    border-left: none;
+
+    position: absolute;
+    top: -1px;
+    right: 0;
+
+    transform: translate(14px);
+
+    transition: all 0.3s;
+}
+
+.menuitems:hover::before{
+    background-color: #d42c0f;
+}
+
+.menuitems::after{
+    content: '';
+    width: 14px;
+    height: 4px;
+    border-left: 1px solid #fff;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transform: translate(14px) skew(-27deg);
+}
+/* End Nav */
