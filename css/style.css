@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,9 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    overflow: hidden;
+
 }
 
 
@@ -31,6 +36,12 @@ header{
     align-items: center;
 }
 /* End Header Icon */
+
+.first{
+    width: 100%;
+    height: 470px;
+    background-color: #111;
+}
 
 /* Start Nav */
 .menuicons{
@@ -81,6 +92,7 @@ header{
     border: 1px solid #fff;
     border-right: none; 
     padding: 8px 15px;
+    cursor: pointer;
 
     position: relative;
 
@@ -125,6 +137,16 @@ header{
     right: 0;
 
     transform: translate(14px) skew(-27deg);
+}
+
+.activeitems{
+    color: #000;
+    background-color: #cfd4d1;
+}
+
+.activeitems::before{
+    background-color: #d42c0f;
+    height: 94%;
 }
 
 /* End Nav */
@@ -188,3 +210,610 @@ header{
         display: none;
     }
  }
+
+ /* Start All Heros */
+ .alls{
+    width: 85%;
+    height: 500px;
+
+    position: absolute;
+    top: 25%;
+    left: 14%;
+ }
+
+ .frows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 7px;
+ }
+
+ .boxs{
+    width: 155px;
+    height: 100px;
+    border: 1px solid #888;
+
+    position: relative;
+
+    overflow: hidden;
+
+    opacity: 0;
+ }
+
+ .heros{
+    opacity: 1;
+ }
+
+.heros1::before{
+    content: 'Energy';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros1::after{
+    content: 'Iron Man';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .ironman{
+    position: absolute;
+    top: 1px;
+    right: 0;
+
+    transform: translate(23px);
+ }
+
+ .heros2::before{
+    content: 'Fighter/Assassin';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 95px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros2::after{
+    content: 'Captain America';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+
+ .captainamerica{
+    position: absolute;
+    top: 2px;
+    right: 0;
+
+    transform: translate(4px);
+ }
+
+ .heros3::before{
+    content: 'Energy';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros3::after{
+    content: 'Dr.Strange';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .drstrange{
+    position: absolute;
+    top: -7px;
+    left: 0;
+
+    transform: translate(-10px);
+ }
+
+ .heros4::before{
+    content: 'Tank';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros4::after{
+    content: 'Hulk';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .hulk{
+    position: absolute;
+    top: 14px;
+    left: 0;
+
+    transform: translate(-15px);
+ }
+
+ .heros5::before{
+    content: 'Support';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros5::after{
+    content: 'Mantis';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .mantis{
+    position: absolute;
+    top: 3px;
+    left: 0;
+
+    transform: translate(-23px);
+ }
+
+ .heros6::before{
+    content: 'Marksman';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros6::after{
+    content: 'Rocket Raccoon';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .rocket{
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    transform: translate(-19px);
+ }
+
+ .heros7::before{
+    content: 'Fighter';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros7::after{
+    content: 'Thanos';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .thanos{
+    position: absolute;
+    top: -8px;
+    left: 0;
+
+    transform: translate(-27px);
+ }
+
+ .heros8::before{
+    content: 'Assassin';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros8::after{
+    content: 'Spider Man';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .spiderman{
+    position: absolute;
+    top: 7px;
+    left: 0;
+
+    transform: translate(-2px);
+ }
+
+ .heros9::before{
+    content: 'Energy';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros9::after{
+    content: 'Loki';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .loki{
+    position: absolute;
+    top: 14px;
+    left: 0;
+
+    transform: translate(-5px);
+ }
+
+ .heros10::before{
+    content: 'Marksman';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros10::after{
+    content: 'Star-Lord';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .starlord{
+    position: absolute;
+    top: 3px;
+    left: 0;
+
+    transform: translate(-6px);
+ }
+
+ .heros11::before{
+    content: 'Support/Tank';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 81px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros11::after{
+    content: 'Groot';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .groot{
+    position: absolute;
+    top: 12px;
+    left: 0;
+
+    transform: translate(-5px);
+ }
+
+ .heros12::before{
+    content: 'Assassin';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros12::after{
+    content: 'Black Widow';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .blackwidow{
+    position: absolute;
+    top: 3px;
+    left: 0;
+
+    transform: translate(-3px);
+ }
+
+ .heros13::before{
+    content: 'Energy';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros13::after{
+    content: 'Scarlet Witch';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .scarletwitch{
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    transform: translate(-4px);
+ }
+
+ .heros14::before{
+    content: 'Marksman';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros14::after{
+    content: 'Vision';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .vision{
+    position: absolute;
+    top: -2px;
+    left: 0;
+
+    transform: translate(-21px);
+ }
+
+ .heros15::before{
+    content: 'Fighter';
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1px 3px;
+    
+    width: 66px;
+    height: 19px;
+    background-color: grey;
+
+    position: absolute;
+    top: -6px;
+    left: 0;
+ }
+
+.heros15::after{
+    content: 'Thor';
+    color: #d1b121;
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+
+    width: 100%;
+    height: 22px;
+    background-color: rgba(0,0,0,0.5);
+
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+ }
+
+ .thor{
+    position: absolute;
+    top: 13px;
+    left: 0;
+
+    transform: translate(-5px);
+ }
+
+ /* End All Heros */
