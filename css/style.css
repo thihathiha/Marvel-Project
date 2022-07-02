@@ -9,13 +9,23 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+}
 
+
+
+/* Userinterface */
+.useri{
+    height: 100vh;
+    background-image: url('../assets/img/herobg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Start Header Icon */
 header{
-    height: 100px;
+    width: 100%;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +34,7 @@ header{
 
 /* Start Nav */
 .menuicons{
+    font-size: 0.8rem;
     cursor: pointer;
     position: relative;
 }
@@ -39,7 +50,7 @@ header{
     bottom: 0;
     left: 0;
 
-    transform: translateX(-10px) translateY(75px);
+    transform: translateX(-5px) translateY(70px);
 
     animation: menuiconsani 2.5s infinite;
 
@@ -83,7 +94,7 @@ header{
 
 .menuitems::before{
     content: '';
-    width: 14px;
+    width: 15px;
     height: 94%;
     background-color: #585959;
     border: 1px solid #fff;
@@ -95,11 +106,12 @@ header{
 
     transform: translate(14px);
 
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .menuitems:hover::before{
     background-color: #d42c0f;
+    height: 94%;
 }
 
 .menuitems::after{
@@ -114,4 +126,65 @@ header{
 
     transform: translate(14px) skew(-27deg);
 }
+
 /* End Nav */
+
+/* For Landscape Mode */
+@media screen and (orientation: portrait) {
+    body{
+        background: linear-gradient(
+                    rgba(0,0,0,0.85),
+                    rgba(0,0,0,0.85)
+                     ),url('../assets/img/mintro.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    body::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: url('../assets/img/rotate.png');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        position: absolute;
+        top: 42%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+    }
+
+    body::after{
+        content: 'Please rotate your screen';
+        width: 100%;
+        height: 100%;
+        color: #888;
+        font-size: 3.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        transform: translateY(35px);
+
+        animation: ani 1.7s;
+    }
+
+    @keyframes ani{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    .menuicons{
+        display: none;
+    }
+ }
