@@ -1,11 +1,9 @@
 $(document).ready(function(){
 
-    $(".headerimg").hide();
-
     $(".menus").click(function(){
         // for marvellogo 
         $(".header").addClass("fheader");
-        $(".headerimg").show();
+        $(".headerimage").addClass("headerimg");
         // for herobg 
         $(".ui").addClass("useri");
         // remove avenger icon and text
