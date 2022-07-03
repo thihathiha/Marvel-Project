@@ -38,16 +38,16 @@
                             data-bs-toggle="collapse" data-bs-target="#nav" width="80px" alt="mmenus" />
                     </div>
                     <div id="nav" class="navbar-collapse collapse">
-                        <ul class="navbar-nav fst-italic">
+                        <ul class="navbar-nav fst-italic position-fixed">
                             <li class="nav-item"><a href="#" class="nav-link mx-md-2"><img src="./assets/img/mheros.png"
                                         width="100px" alt="mheros" /></a></li>
-                            <li class="nav-item menuitems activeitems border-bottom-0">All</li>
-                            <li class="nav-item menuitems border-bottom-0">Fighter</li>
-                            <li class="nav-item menuitems border-bottom-0">Energy</li>
-                            <li class="nav-item menuitems border-bottom-0">Marksman</li>
-                            <li class="nav-item menuitems border-bottom-0">Assassin</li>
-                            <li class="nav-item menuitems border-bottom-0">Tank</li>
-                            <li class="nav-item menuitems">Support</li>
+                            <li class="nav-item menuitems activeitems border-bottom-0" data-filter="all">All</li>
+                            <li class="nav-item menuitems border-bottom-0" data-filter="fighter">Fighter</li>
+                            <li class="nav-item menuitems border-bottom-0" data-filter="energy">Energy</li>
+                            <li class="nav-item menuitems border-bottom-0" data-filter="marksman">Marksman</li>
+                            <li class="nav-item menuitems border-bottom-0" data-filter="assassin">Assassin</li>
+                            <li class="nav-item menuitems border-bottom-0" data-filter="tank">Tank</li>
+                            <li class="nav-item menuitems" data-filter="support">Support</li>
                         </ul>
                     </div>
                 </div>
@@ -56,55 +56,51 @@
 
             <!-- Start All Section  -->
             <div id="all" class="alls">
-                <div class="frows">
-                    <div class="boxs heros1">
+                <div class="d-flex flex-wrap">
+                    <div class="boxs heros1 roles energy">
                         <img src="./assets/img/heros/ironman.png" class="ironman" alt="ironman" />
                     </div>
-                    <div class="boxs heros2">
+                    <div class="boxs heros2 roles fighter assassin">
                         <img src="./assets/img/heros/captainamerica.png" class="captainamerica" width="175px"
                             alt="captainamerica" />
                     </div>
-                    <div class="boxs heros3">
+                    <div class="boxs heros3 roles energy">
                         <img src="./assets/img/heros/drstrange.png" class="drstrange" alt="drstrange" />
                     </div>
-                    <div class="boxs heros4">
+                    <div class="boxs heros4 roles tank">
                         <img src="./assets/img/heros/hulk.png" class="hulk" alt="hulk" />
                     </div>
-                    <div class="boxs heros5">
+                    <div class="boxs heros5 roles support">
                         <img src="./assets/img/heros/mantis.png" class="mantis" alt="mantis" />
                     </div>
-                </div>
-                <div class="frows">
-                    <div class="boxs heros6">
+                    <div class="boxs heros6 roles marksman">
                         <img src="./assets/img/heros/rocket.png" class="rocket" alt="rocket" />
                     </div>
-                    <div class="boxs heros7">
+                    <div class="boxs heros7 roles fighter">
                         <img src="./assets/img/heros/thanos.png" class="thanos" alt="thanos" />
                     </div>
-                    <div class="boxs heros8">
+                    <div class="boxs heros8 roles assassin">
                         <img src="./assets/img/heros/spiderman.png" class="spiderman" alt="spiderman" />
                     </div>
-                    <div class="boxs heros9">
+                    <div class="boxs heros9 roles energy">
                         <img src="./assets/img/heros/loki.png" class="loki" alt="loki" />
                     </div>
-                    <div class="boxs heros10">
+                    <div class="boxs heros10 roles marksman">
                         <img src="./assets/img/heros/starlord.png" class="starlord" alt="starlord" />
                     </div>
-                </div>
-                <div class="frows">
-                    <div class="boxs heros11">
+                    <div class="boxs heros11 roles support tank">
                         <img src="./assets/img/heros/groot.png" class="groot" alt="groot" />
                     </div>
-                    <div class="boxs heros12">
+                    <div class="boxs heros12 roles assassin">
                         <img src="./assets/img/heros/blackwidow.png" class="blackwidow" alt="blackwidow" />
                     </div>
-                    <div class="boxs heros13">
+                    <div class="boxs heros13 roles energy">
                         <img src="./assets/img/heros/scarletwitch.png" class="scarletwitch" alt="scarletwitch" />
                     </div>
-                    <div class="boxs heros14">
+                    <div class="boxs heros14 roles marksman">
                         <img src="./assets/img/heros/vision.png" class="vision" alt="vision" />
                     </div>
-                    <div class="boxs heros15">
+                    <div class="boxs heros15 roles fighter">
                         <img src="./assets/img/heros/thor.png" class="thor" alt="thor" />
                     </div>
                 </div>

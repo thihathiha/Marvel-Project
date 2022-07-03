@@ -217,22 +217,16 @@ header{
     height: 500px;
 
     position: absolute;
-    top: 25%;
+    top: 29%;
     left: 14%;
- }
-
- .frows{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    margin-bottom: 7px;
  }
 
  .boxs{
     width: 155px;
     height: 100px;
     border: 1px solid #888;
+    margin-bottom: 7px;
+    margin-left: 9px;
 
     position: relative;
 
