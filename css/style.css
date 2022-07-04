@@ -104,7 +104,7 @@ header{
 @media (max-width: 1000px) and (max-height: 500px){
     .menuicons{
         margin-left: 220px;
-        margin-top: 320px;
+        margin-top: 335px;
     }
 }
 /* End Enter Game Button */
@@ -127,13 +127,16 @@ header{
 
 @media (max-height: 390px){
     .menuitems{
-        padding: 5px 15px;
+        padding: 4px 15px;
     }
     .fheader{
         height: 60px;
     }
     .mheros{
-        width: 86px;
+        width: 82px;
+    }
+    .menuicons{
+        margin-top: 230px;
     }
     
 }

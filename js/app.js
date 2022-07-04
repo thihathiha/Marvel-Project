@@ -16,6 +16,8 @@ $(document).ready(function(){
 
         $("#nav").show();
         $("footer").hide();
+
+        $(window).scrollTop(0);
     });
 
     $(".menuitems").click(function(){
