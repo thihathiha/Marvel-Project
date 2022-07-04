@@ -13,10 +13,14 @@ $(document).ready(function(){
         $(".firstj").addClass("first");
         // opacity 1 for heros 
         $(".boxs").addClass("heros");
+
+        $("#nav").show();
+        $("footer").hide();
     });
 
     $(".menuitems").click(function(){
         $(this).addClass("activeitems").siblings().removeClass("activeitems");
+        $(window).scrollTop(0);
 
         // for roles 
         let getattvalue = $(this).attr("data-filter");

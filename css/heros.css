@@ -49,6 +49,8 @@
     position: absolute;
     top: -6px;
     left: 0;
+
+    z-index: 2;
  }
 
 .heros2::after{
@@ -164,6 +166,8 @@
     position: absolute;
     top: -6px;
     left: 0;
+
+    z-index: 2;
  }
 
 .heros5::after{
@@ -696,6 +700,8 @@
     position: absolute;
     top: -6px;
     left: 0;
+
+    z-index: 2;
  }
 
 .heros19::after{
@@ -734,6 +740,8 @@
     position: absolute;
     top: -6px;
     left: 0;
+
+    z-index: 2;
  }
 
 .heros20::after{
@@ -796,3 +804,361 @@
 
     transform: translate(-2px);
  }
+
+ .heros22::before{
+   content: 'Energy';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 72px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+}
+
+.heros22::after{
+   content: 'Mysterio';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.mysterio{
+   position: absolute;
+   top: -8px;
+   left: 0;
+
+   transform: translate(1px);
+}
+
+.heros23::before{
+   content: 'Energy';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 72px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros23::after{
+   content: 'Ancient One';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.ancientone{
+   position: absolute;
+   top: -9px;
+   left: 0;
+
+   transform: translate(0px);
+}
+
+.heros24::before{
+   content: 'Assassin/Fighter';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 105px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros24::after{
+   content: 'Captain Marvel';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.captainmarvel{
+   position: absolute;
+   top: 3px;
+   left: 0;
+
+   transform: translate(-10px);
+}
+
+.heros25::before{
+   content: 'Fighter';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 72px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros25::after{
+   content: 'Falcon';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.falcon{
+   position: absolute;
+   top: 3px;
+   left: 0;
+
+   transform: translate(-1px);
+}
+
+.heros26::before{
+   content: 'Fighter';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 72px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros26::after{
+   content: 'Iron Fist';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.ironfist{
+   position: absolute;
+   top: 5px;
+   left: 0;
+
+   transform: translate(-23px);
+}
+
+.heros27::before{
+   content: 'Support';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 75px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros27::after{
+   content: 'Ebony Maw';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.ebonymaw{
+   position: absolute;
+   top: 1px;
+   left: 0;
+
+   transform: translate(-10px);
+}
+
+.heros28::before{
+   content: 'Marksman';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 80px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros28::after{
+   content: 'Yondu';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.yondu{
+   position: absolute;
+   top: 1px;
+   left: 0;
+
+   transform: translate(-7px);
+}
+
+.heros29::before{
+   content: 'Tank';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 72px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros29::after{
+   content: 'Sandman';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.sandman{
+   position: absolute;
+   top: 1px;
+   left: 0;
+
+   transform: translate(-10px);
+}
+
+.heros30::before{
+   content: 'Marksman';
+   font-size: 0.8rem;
+   font-style: italic;
+   padding: 1px 3px;
+   
+   width: 80px;
+   height: 19px;
+   background-color: grey;
+
+   position: absolute;
+   top: -6px;
+   left: 0;
+
+   z-index: 2;
+}
+
+.heros30::after{
+   content: 'Hawkeye';
+   color: #d1b121;
+   font-family: 'Finlandica', sans-serif;
+   text-align: center;
+
+   width: 100%;
+   height: 22px;
+   background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+}
+
+.hawkeye{
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   transform: translate(-1px);
+}

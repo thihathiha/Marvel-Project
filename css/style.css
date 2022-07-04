@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
     margin: 0;
@@ -34,11 +35,11 @@ header{
 }
 
 .headerimage{
-    opacity: 0;
+    display: none;
 }
 
 .headerimg{
-    opacity: 1;
+    display: block;
 }
 
 .fheader{
@@ -50,7 +51,7 @@ header{
     background-image: url('../assets/img/herobg.jpg');
     position: fixed;
 
-    z-index: 2;
+    z-index: 3;
 }
 
 
@@ -58,52 +59,58 @@ header{
 
 .first{
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #111;
 }
 
-/* Start Nav */
+/* Start Nav  */
+
+/* Start Enter Game Button */
 .menuicons{
-    font-size: 0.8rem;
+    margin-left: 400px;
+    margin-top: 470px;
     cursor: pointer;
     position: relative;
+
+    animation: menuiconsani 1.5s;
+
+    z-index: 2;
 }
 
 .menuicons::before{
-    content: '\f062 Tap the icon';
-    color: #111;
-    font-family: "Font Awesome 5 Free";
-    width: 120%;
+    content: 'Enter Game';
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: yellow;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    width: 100%;
     height: 100%;
 
     position: absolute;
-    bottom: 0;
-    left: 0;
-
-    transform: translateX(-5px) translateY(70px);
-
-    animation: menuiconsani 2.5s infinite;
-
+    top: 26px;
+    left: 154px;
 }
 
 @keyframes menuiconsani{
     0%{
         opacity: 0;
     }
-    25%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    75%{
-        opacity: 1;
-    }
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
 
+@media (max-width: 1000px) and (max-height: 500px){
+    .menuicons{
+        margin-left: 220px;
+        margin-top: 320px;
+    }
+}
+/* End Enter Game Button */
+
+
+/* Start Hero roles button  */
 .menuitems{
     color: #fff;
     background-color: #585959;
@@ -121,6 +128,12 @@ header{
 @media (max-height: 390px){
     .menuitems{
         padding: 5px 15px;
+    }
+    .fheader{
+        height: 60px;
+    }
+    .mheros{
+        width: 86px;
     }
     
 }
@@ -174,6 +187,7 @@ header{
     background-color: #d42c0f;
     height: 94%;
 }
+/* End Hero roles button  */
 
 /* End Nav */
 
@@ -235,7 +249,11 @@ header{
     .menuicons{
         display: none;
     }
- }
+
+    .first, #nav, .alls{
+        display: none;
+    }
+}
 
  /* Start All Heros */
  .alls{
@@ -251,8 +269,8 @@ header{
     width: 155px;
     height: 100px;
     border: 1px solid #888;
-    margin-bottom: 7px;
-    margin-left: 9px;
+    margin-bottom: 10px;
+    margin-left: 11px;
 
     position: relative;
 
@@ -266,3 +284,16 @@ header{
  }
 
 /* End All Heros */
+
+/* Footer  */
+footer{
+    width: 100%;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+
+    position: absolute;
+    bottom: 10px;
+}
