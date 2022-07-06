@@ -15,6 +15,10 @@ body{
     background-attachment: fixed;
 }
 
+a{
+    color: #000;
+}
+
 @keyframes bodyani{
     0%{
         overflow: hidden;
@@ -227,7 +231,9 @@ header{
 }
 
 /* Start Nav  */
-
+#nav{
+    display: none;
+}
 
 /* Start Enter Game Button */
 .menuicons{
@@ -291,7 +297,7 @@ header{
 }
 
 
-@media (max-height: 420px){
+@media (max-height: 395px){
     .menuitems{
         padding: 4px 15px;
     }

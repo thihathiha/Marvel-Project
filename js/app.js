@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-    $("#nav").hide();
-
     $(".menus").click(function(){
         // for body overflow hidden
         $("body").addClass("bodyclass");
