@@ -3,86 +3,248 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+
+
+#ironmanprofile{
+    font-family: 'Finlandica', sans-serif;
     height: 100vh;
-    background-image: url(../../assets/img/profilebg.jpg);
+    background-image: url(../../assets/img/heroprofilebg.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+    
+    display: none;
 }
 
-section{
-    height: 100vh;
+
+.backbtn{
+    width: 115px;
+    cursor: pointer;
+
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.pftitle{
+    color: silver;
+    font-size: 3rem;
+}
+
+/* Skills */
+
+.skillcontent{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.skillcontent img{
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.skillbtn{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid grey;
+
+   
+}
+
+.skilltexttext1, .skilltexttext2, .skilltexttext3, .skilltexttext4{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.skilltext1, .skilltext2, .skilltext3, .skilltext4{
+    width: 500px;
+    height: 350px;
+    color: antiquewhite;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
     flex-direction: column;
+
+    position: relative;
+
 }
 
-.row1{
-    width: 51%;
-    height: 60px;
+.skilltext1 span{
+    font-size: 2rem;
+}
 
+.skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small{
+    color: #888;
+
+    position: absolute;
+    left: 41%;
+    bottom: -43%;
+}
+
+.skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.skilltext2 h6, .skilltext3 h6, .skilltext4 h6{
+    letter-spacing: 1px;
+}
+
+.skilltext2 span, .skilltext3 span, .skilltext4 span{
+    font-size: 1rem;
+    color: #16b8c7;
+}
+
+
+.skilltextcontrol{
+    opacity: 0;
+}
+
+/* Hero */
+
+.herophoto{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 35px;
+
+}
+
+/* Details */
+
+.detailgp{
+    height: 400px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.row1 .skill1 , .skill2{
-    margin-top: 60px;
+.details h2{
+    font-size: 2.7rem;
+    color: #e8b72e;
+    letter-spacing: 1px;
+}
+
+.details h4 , .details h5{
+    color: #999;
+}
+
+.details b{
+    color: #ddd;
+}
+
+.percentbar{
+    width: 250px;
+    height: 10px;
+    background-color: #111;
 
     position: relative;
 }
 
-.row1 .skill1::before, .row1 .skill2::before{
-    content: 'Skill 1';
-    color: #999;
-    font-size: 2.3rem;
-    text-transform: uppercase;
+.percentbar span{
     width: 100%;
     height: 100%;
+    background-color: #ab810e;
 
     position: absolute;
-    bottom: 0;
-    right: 0;
-
-    transform: translate(125px,110px) rotate(-45deg);
 }
 
-.row1 .skill2::before{
-    content: 'Skill 2';
-    transform: translate(-125px,110px) rotate(45deg);
+.percentbar span.bar1{
+    width: 100%;
 }
 
-
-.row1 .titles{
-    color: brown;
-    font-family: 'Finlandica', sans-serif;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    text-shadow: 1px 2px 5px #000;
+.percentbar span.bar2{
+    width: 15%;
 }
 
-.row2{
-    width: 97%;
-    height: 60px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.percentbar span.bar3{
+    width: 80%;
 }
 
-.row2 .profile{
-    margin-left: 100px;
-    margin-bottom: 30px;
+.percentbar span.bar4{
+    width: 40%;
 }
 
-.row2 .skins{
-    margin-bottom: 60px;
-    margin-right: 45px;
-}
+@media (max-width: 1000px){
+    .pftitle{
+        font-size: 1.6rem;
+    }
+    .skillcontent .skillicon{
+        width: 65px;
+    }
+    .skilltext1 span{
+        font-size: 1.5rem;
+    }
+    .skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p{
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle{
+        font-size: 1.5rem;
+        color: antiquewhite;
+    }
+    .skilltext1, .skilltext2, .skilltext3, .skilltext4{
+        padding: 40px 25px;
 
-.row2 .skins img{
-    box-shadow: 1px 1px 5px 3px #000;
+        display: block;
+    }
+
+    .skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small{
+        color: #888;
+    
+        position: absolute;
+        left: 32%;
+        bottom: -8%;
+    }
+    .herophoto img{
+        width: 540px;
+    }
+
+    .detailgp{
+        height: 300px;
+        padding-left: 120px;
+    }
+    .details h2{
+        font-size: 2rem;
+    }
+    .details h4 , .details h5{
+        font-size: 1.1rem;
+    }
+    .percentbar{
+        width: 185px;
+    }
+    .backbtn{
+        width: 70px;
+        left: 20px;
+        top: 3px;
+    }
 }

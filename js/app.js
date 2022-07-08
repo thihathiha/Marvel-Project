@@ -48,4 +48,124 @@ $(document).ready(function(){
         }
     });
 
+
+    // heroprofile html 
+
+    // Skill-1 icon
+    $(".skillicon1").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext1").removeClass("skilltextcontrol");
+
+        $(".skilltexttext1").show();  
+
+        // change from other icons 
+        $(".skilltexttext2").hide();
+        $(".skillicon2").removeClass("skillbtn");
+
+        $(".skilltexttext3").hide();
+        $(".skillicon3").removeClass("skillbtn");
+
+        $(".skilltexttext4").hide();
+        $(".skillicon4").removeClass("skillbtn");
+    });
+
+     // return home 
+     $(".skilltexttext1").click(function(){
+        $(this).hide();
+        $(".skillicon1").removeClass("skillbtn");
+    });
+
+
+    // Skill-2 icon 
+    $(".skillicon2").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext2").removeClass("skilltextcontrol");
+
+        $(".skilltexttext2").show();  
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skilltexttext3").hide();
+        $(".skillicon3").removeClass("skillbtn");
+
+        $(".skilltexttext4").hide();
+        $(".skillicon4").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltexttext2").click(function(){
+        $(this).hide();
+        $(".skillicon2").removeClass("skillbtn");
+    });
+
+     // Skill-3 icon 
+     $(".skillicon3").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext3").removeClass("skilltextcontrol");
+
+        $(".skilltexttext3").show();  
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skilltexttext2").hide();
+        $(".skillicon2").removeClass("skillbtn");
+
+        $(".skilltexttext4").hide();
+        $(".skillicon4").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltexttext3").click(function(){
+        $(this).hide();
+        $(".skillicon3").removeClass("skillbtn");
+    });
+
+     // Skill-4 icon 
+     $(".skillicon4").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext4").removeClass("skilltextcontrol");
+
+        $(".skilltexttext4").show();  
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skilltexttext2").hide();
+        $(".skillicon2").removeClass("skillbtn");
+
+        $(".skilltexttext3").hide();
+        $(".skillicon3").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltexttext4").click(function(){
+        $(this).hide();
+        $(".skillicon4").removeClass("skillbtn");
+    });    
+
+    // Iron Man Profile 
+    $(".heros1").click(function(){
+        $("#ironmanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    $(".backbtn").click(function(){
+        $("#ironmanprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+
+   
+
+    
+
 });

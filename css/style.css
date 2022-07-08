@@ -316,7 +316,7 @@ header{
     .loadingbar{
         margin: 0px auto;
     }
-    
+  
 }
 
 .menuitems:hover{
@@ -434,6 +434,10 @@ header{
     .first, #nav, .alls{
         display: none;
     }
+
+    #ironmanprofile{
+        opacity: 0;
+    }
 }
 
  /* Start All Heros */
@@ -452,6 +456,7 @@ header{
     border: 1px solid #888;
     margin-bottom: 10px;
     margin-left: 11px;
+    cursor: pointer;
 
     position: relative;
 
