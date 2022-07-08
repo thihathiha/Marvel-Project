@@ -149,13 +149,6 @@ $(document).ready(function(){
     });    
 
     // Iron Man Profile 
-    $(".heros1").click(function(){
-        $("#ironmanprofile").show();   
-        $("header").hide();
-        $(".header").hide();
-        $(".firstj").hide();
-    });
-
     $(".backbtn").click(function(){
         $("#ironmanprofile").hide();  
         $("header").show();
@@ -163,9 +156,60 @@ $(document).ready(function(){
         $(".firstj").show();
     });
 
+    $(".heros1").click(function(){
+        $("#ironmanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
 
+    // Captain America Profile
+    $(".backbtn").click(function(){
+        $("#captainamericaprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros2").click(function(){
+        $("#captainamericaprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Hulk Profile 
+    $(".backbtn").click(function(){
+        $("#hulkprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros4").click(function(){
+        $("#hulkprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Mantis Profile 
+    $(".backbtn").click(function(){
+        $("#mantisprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros5").click(function(){
+        $("#mantisprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
    
 
-    
+
+   
 
 });
