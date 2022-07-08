@@ -150,6 +150,10 @@ $(document).ready(function(){
 
     // Iron Man Profile 
     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
         $("#ironmanprofile").hide();  
         $("header").show();
         $(".header").show();
@@ -165,6 +169,10 @@ $(document).ready(function(){
 
     // Captain America Profile
     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
         $("#captainamericaprofile").hide();  
         $("header").show();
         $(".header").show();
@@ -180,6 +188,10 @@ $(document).ready(function(){
 
     // Hulk Profile 
     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
         $("#hulkprofile").hide();  
         $("header").show();
         $(".header").show();
@@ -195,6 +207,10 @@ $(document).ready(function(){
 
     // Mantis Profile 
     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
         $("#mantisprofile").hide();  
         $("header").show();
         $(".header").show();
@@ -203,6 +219,63 @@ $(document).ready(function(){
 
     $(".heros5").click(function(){
         $("#mantisprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Rocket Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#rocketprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros6").click(function(){
+        $("#rocketprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    }); 
+
+    // Spider Man Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#spidermanprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros8").click(function(){
+        $("#spidermanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Starlord Profile
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#starlordprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros10").click(function(){
+        $("#starlordprofile").show();   
         $("header").hide();
         $(".header").hide();
         $(".firstj").hide();
