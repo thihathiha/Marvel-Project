@@ -280,9 +280,233 @@ $(document).ready(function(){
         $(".header").hide();
         $(".firstj").hide();
     });
-   
 
+     // Groot Profile
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#grootprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
 
-   
+    $(".heros11").click(function(){
+        $("#grootprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Scarlet Witch Profile
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#scarletwitchprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros13").click(function(){
+        $("#scarletwitchprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+    
+    // Vision Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#visionprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros14").click(function(){
+        $("#visionprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Thor Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#thorprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros15").click(function(){
+        $("#thorprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+     // Winter Soldier Profile 
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#wintersoldierprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros16").click(function(){
+        $("#wintersoldierprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Ronan Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#ronanprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros18").click(function(){
+        $("#ronanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Deadpool Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#deadpoolprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros20").click(function(){
+        $("#deadpoolprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+     // Colossus Profile 
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#colossusprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros21").click(function(){
+        $("#colossusprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Captain Marvel Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#captainmarvelprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros24").click(function(){
+        $("#captainmarvelprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Iron Fist Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#ironfistprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros26").click(function(){
+        $("#ironfistprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Yondu Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#yonduprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros28").click(function(){
+        $("#yonduprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+     // Hawkeye Profile 
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $("#hawkeyeprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros30").click(function(){
+        $("#hawkeyeprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
 
 });

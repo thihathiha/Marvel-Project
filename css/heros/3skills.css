@@ -125,6 +125,210 @@
     display: none;
 }
 
+#grootprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#scarletwitchprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#visionprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#thorprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#wintersoldierprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#ronanprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#deadpoolprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#colossusprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#captainmarvelprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#ironfistprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#yonduprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#hawkeyeprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
 /* Hero */
 
 .herophoto{
@@ -172,6 +376,67 @@
     margin: 110px 0 0 0;
 }
 
+#grootprofile .herophoto .grootimg{
+    width: 1100px;
+    margin: 110px 0 0 30px;
+}
+
+#scarletwitchprofile .herophoto .scarletwitchimg{
+    width: 1000px;
+    margin: 80px 25px 0 0;
+}
+
+#visionprofile .herophoto .visionimg{
+    width: 1000px;
+    margin: 80px 0 0 0;
+}
+
+#thorprofile .herophoto .thorimg{
+    width: 1000px;
+    margin: 85px 0 0 0;
+}
+
+#wintersoldierprofile .herophoto .wintersoldierimg{
+    width: 1100px;
+    margin: 95px 0 0 10px;
+}
+
+#ronanprofile .herophoto .ronanimg{
+    width: 1100px;
+    margin: 160px 20px 0 0;
+}
+
+#deadpoolprofile .herophoto .deadpoolimg{
+    width: 1100px;
+    margin: 110px 25px 0 0;
+}
+
+#colossusprofile .herophoto .colossusimg{
+    width: 1050px;
+    margin: 130px 0 0 20px;
+}
+
+#captainmarvelprofile .herophoto .captainmarvelimg{
+    width: 1100px;
+    margin: 100px 20px 0 0;
+}
+
+#ironfistprofile .herophoto .ironfistimg{
+    width: 1050px;
+    margin: 90px 0 0 10px;
+}
+
+#yonduprofile .herophoto .yonduimg{
+    width: 1050px;
+    margin: 80px 20px 0 0;
+}
+
+#hawkeyeprofile .herophoto .hawkeyeimg{
+    width: 1000px;
+    margin: 80px 0 0 0;
+}
+
+
 .backbtn{
     width: 115px;
     cursor: pointer;
@@ -184,6 +449,7 @@
 .pftitle{
     color: silver;
     font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
 /* Skills */
@@ -196,8 +462,11 @@
 
 .skillcontent img{
     width: 100px;
+    border-radius: 50%;
     cursor: pointer;
     z-index: 2;
+
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.4);
 }
 
 .skillbtn{
@@ -205,8 +474,6 @@
     height: 100%;
     border-radius: 50%;
     border: 4px solid grey;
-
-   
 }
 
 .skilltexttext1, .skilltexttext2, .skilltexttext3, .skilltexttext4{
@@ -292,7 +559,7 @@
 
 .details h4 , .details h5{
     color: #999;
-    width: 240px;
+    width: 280px;
 }
 
 .details b{
@@ -427,6 +694,197 @@
     width: 20%;
 }
 
+#grootprofile .percentbar span.bar1{
+    width: 20%;
+}
+
+#grootprofile .percentbar span.bar2{
+    width: 80%;
+}
+
+#grootprofile .percentbar span.bar3{
+    width: 35%;
+}
+
+#grootprofile .percentbar span.bar4{
+    width: 100%;
+}
+
+#scarletwitchprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#scarletwitchprofile .percentbar span.bar2{
+    width: 21%;
+}
+
+#scarletwitchprofile .percentbar span.bar3{
+    width: 20%;
+}
+
+#scarletwitchprofile .percentbar span.bar4{
+    width: 35%;
+}
+
+#visionprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#visionprofile .percentbar span.bar2{
+    width: 38%;
+}
+
+#visionprofile .percentbar span.bar3{
+    width: 38%;
+}
+
+#visionprofile .percentbar span.bar4{
+    width: 20%;
+}
+
+#thorprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#thorprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#thorprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#thorprofile .percentbar span.bar4{
+    width: 60%;
+}
+
+#wintersoldierprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#wintersoldierprofile .percentbar span.bar2{
+    width: 37%;
+}
+
+#wintersoldierprofile .percentbar span.bar3{
+    width: 37%;
+}
+
+#wintersoldierprofile .percentbar span.bar4{
+    width: 37%;
+}
+
+#ronanprofile .percentbar span.bar1{
+    width: 35%;
+}
+
+#ronanprofile .percentbar span.bar2{
+    width: 80%;
+}
+
+#ronanprofile .percentbar span.bar3{
+    width: 20%;
+}
+
+#ronanprofile .percentbar span.bar4{
+    width: 100%;
+}
+
+#deadpoolprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#deadpoolprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#deadpoolprofile .percentbar span.bar3{
+    width: 85%;
+}
+
+#deadpoolprofile .percentbar span.bar4{
+    width: 20%;
+}
+
+#colossusprofile .percentbar span.bar1{
+    width: 60%;
+}
+
+#colossusprofile .percentbar span.bar2{
+    width: 80%;
+}
+
+#colossusprofile .percentbar span.bar3{
+    width: 40%;
+}
+
+#colossusprofile .percentbar span.bar4{
+    width: 100%;
+}
+
+#captainmarvelprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#captainmarvelprofile .percentbar span.bar2{
+    width: 20%;
+}
+
+#captainmarvelprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#captainmarvelprofile .percentbar span.bar4{
+    width: 35%;
+}
+
+#ironfistprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#ironfistprofile .percentbar span.bar2{
+    width: 60%;
+}
+
+#ironfistprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#ironfistprofile .percentbar span.bar4{
+    width: 38%;
+}
+
+#yonduprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#yonduprofile .percentbar span.bar2{
+    width: 26%;
+}
+
+#yonduprofile .percentbar span.bar3{
+    width: 40%;
+}
+
+#yonduprofile .percentbar span.bar4{
+    width: 24%;
+}
+
+#hawkeyeprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#hawkeyeprofile .percentbar span.bar2{
+    width: 20%;
+}
+
+#hawkeyeprofile .percentbar span.bar3{
+    width: 35%;
+}
+
+#hawkeyeprofile .percentbar span.bar4{
+    width: 20%;
+}
 
 @media (max-width: 1000px){
     .pftitle{
@@ -515,10 +973,52 @@
         width: 770px;
         margin: 0 100px 0 0;
     }
-    
-}
-@media (max-height: 395px){
-    #heroui{
-        margin-bottom: 20px;
+    #grootprofile .herophoto .grootimg{
+        width: 815px;
+        margin: 0 120px 50px 0;
+    }
+    #scarletwitchprofile .herophoto .scarletwitchimg{
+        width: 780px;
+        margin: 0 155px 30px 0;
+    }
+    #visionprofile .herophoto .visionimg{
+        width: 800px;
+        margin: 0 120px 30px 0;
+    }
+    #thorprofile .herophoto .thorimg{
+        width: 800px;
+        margin:0 120px 15px 0;
+    }
+    #wintersoldierprofile .herophoto .wintersoldierimg{
+        width: 800px;
+        margin: 0 120px 35px 0;
+    }
+    #ronanprofile .herophoto .ronanimg{
+        width: 800px;
+        margin: 20px 150px 0 0;
+    }
+    #deadpoolprofile .herophoto .deadpoolimg{
+        width: 800px;
+        margin: 0 150px 20px 0;
+    }
+    #colossusprofile .herophoto .colossusimg{
+        width: 780px;
+        margin: 0 100px 10px 0;
+    }
+    #captainmarvelprofile .herophoto .captainmarvelimg{
+        width: 800px;
+        margin: 0px 145px 35px 0;
+    }
+    #ironfistprofile .herophoto .ironfistimg{
+        width: 750px;
+        margin: 0 110px 30px 0;
+    }
+    #yonduprofile .herophoto .yonduimg{
+        width: 780px;
+        margin: 0 130px 10px 0;
+    }
+    #hawkeyeprofile .herophoto .hawkeyeimg{
+        width: 770px;
+        margin: 0 120px 50px 0;
     }
 }
