@@ -67,6 +67,9 @@ $(document).ready(function(){
 
         $(".skilltexttext4").hide();
         $(".skillicon4").removeClass("skillbtn");
+
+        $(".skilltexttext5").hide();
+        $(".skillicon5").removeClass("skillbtn");
     });
 
      // return home 
@@ -92,6 +95,9 @@ $(document).ready(function(){
 
         $(".skilltexttext4").hide();
         $(".skillicon4").removeClass("skillbtn");
+
+        $(".skilltexttext5").hide();
+        $(".skillicon5").removeClass("skillbtn");
     });
 
     // return home 
@@ -116,6 +122,9 @@ $(document).ready(function(){
 
         $(".skilltexttext4").hide();
         $(".skillicon4").removeClass("skillbtn");
+
+        $(".skilltexttext5").hide();
+        $(".skillicon5").removeClass("skillbtn");
     });
 
     // return home 
@@ -140,6 +149,9 @@ $(document).ready(function(){
 
         $(".skilltexttext3").hide();
         $(".skillicon3").removeClass("skillbtn");
+
+        $(".skilltexttext5").hide();
+        $(".skillicon5").removeClass("skillbtn");
     });
 
     // return home 
@@ -147,6 +159,35 @@ $(document).ready(function(){
         $(this).hide();
         $(".skillicon4").removeClass("skillbtn");
     });    
+
+     // Skill-5 icon 
+     $(".skillicon5").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext5").removeClass("skilltextcontrol");
+
+        $(".skilltexttext5").show();  
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skilltexttext2").hide();
+        $(".skillicon2").removeClass("skillbtn");
+
+        $(".skilltexttext3").hide();
+        $(".skillicon3").removeClass("skillbtn");
+
+        $(".skilltexttext4").hide();
+        $(".skillicon4").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltexttext5").click(function(){
+        $(this).hide();
+        $(".skillicon5").removeClass("skillbtn");
+    });
+
+    // 3 skills Heroes
 
     // Iron Man Profile 
     $(".backbtn").click(function(){
@@ -504,6 +545,128 @@ $(document).ready(function(){
 
     $(".heros30").click(function(){
         $("#hawkeyeprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // 4 skills Heroes
+
+    // Dr Strange Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#drstrangeprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros3").click(function(){
+        $("#drstrangeprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Loki Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#lokiprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros9").click(function(){
+        $("#lokiprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Black Widow Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#blackwidowprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros12").click(function(){
+        $("#blackwidowprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+     // Ant Man Profile 
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#antmanprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros17").click(function(){
+        $("#antmanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Black Panther Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#blackpantherprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros19").click(function(){
+        $("#blackpantherprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Mysterio Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#mysterioprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros22").click(function(){
+        $("#mysterioprofile").show();   
         $("header").hide();
         $(".header").hide();
         $(".firstj").hide();

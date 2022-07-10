@@ -357,8 +357,8 @@
 }
 
 #mantisprofile .herophoto .mantisimg{
-    width: 100%;
-    margin: 90px 0 0 35px;
+    width: 1000px;
+    margin: 90px 0 0 20px;
 }
 
 #rocketprofile .herophoto .rocketimg{
@@ -473,10 +473,10 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 4px solid grey;
+    border: 3px solid grey;
 }
 
-.skilltexttext1, .skilltexttext2, .skilltexttext3, .skilltexttext4{
+.skilltexttext1, .skilltexttext2, .skilltexttext3, .skilltexttext4, .skilltexttext5{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
@@ -489,7 +489,7 @@
     justify-content: center;
 }
 
-.skilltext1, .skilltext2, .skilltext3, .skilltext4{
+.skilltext1, .skilltext2, .skilltext3, .skilltext4, .skilltext5{
     width: 500px;
     height: 350px;
     color: antiquewhite;
@@ -507,12 +507,12 @@
     font-size: 2rem;
 }
 
-.skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p{
+.skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p, .skilltext5 p{
     font-size: 1.1rem;
     margin-top: 20px;
 }
 
-.skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small{
+.skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small, .skilltext5 small{
     color: #888;
 
     position: absolute;
@@ -520,16 +520,16 @@
     bottom: -43%;
 }
 
-.skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle{
+.skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle, .skilltext5 .skilltitle{
     font-size: 2rem;
     color: antiquewhite;
 }
 
-.skilltext2 h6, .skilltext3 h6, .skilltext4 h6{
+.skilltext2 h6, .skilltext3 h6, .skilltext4 h6, .skilltext5 h6{
     letter-spacing: 1px;
 }
 
-.skilltext2 span, .skilltext3 span, .skilltext4 span{
+.skilltext2 span, .skilltext3 span, .skilltext4 span, .skilltext5 span{
     font-size: 1rem;
     color: #16b8c7;
 }
@@ -955,8 +955,8 @@
     }
 
     #mantisprofile .herophoto .mantisimg{
-        width: 84%;
-        margin: 0 96px 35px 0;
+        width: 700px;
+        margin: 0 130px 20px 0;
     }
 
     #rocketprofile .herophoto .rocketimg{

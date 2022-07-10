@@ -1,0 +1,280 @@
+#drstrangeprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#lokiprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#blackwidowprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#antmanprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#blackpantherprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#mysterioprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+.skillcontents{
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.skillcontents img{
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+}
+
+/* Images */
+
+#drstrangeprofile .herophoto .drstrangeimg{
+    width: 1000px;
+    margin: 90px 0 0 0;
+}
+
+#lokiprofile .herophoto .lokiimg{
+    width: 1050px;
+    margin: 150px 0 0 0;
+}
+
+#blackwidowprofile .herophoto .blackwidowimg{
+    width: 1100px;
+    margin: 100px 0 0 0;
+}
+
+#antmanprofile .herophoto .antmanimg{
+    width: 1100px;
+    margin: 110px 10px 0 0;
+}
+
+#blackpantherprofile .herophoto .blackpantherimg{
+    width: 1150px;
+    margin: 120px 10px 0 0;
+}
+
+#mysterioprofile .herophoto .mysterioimg{
+    width: 1100px;
+    margin: 110px 0 0 0;
+}
+
+/* Percent bar  */
+
+#drstrangeprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#drstrangeprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#drstrangeprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#drstrangeprofile .percentbar span.bar4{
+    width: 80%;
+}
+
+#lokiprofile .percentbar span.bar1{
+    width: 85%;
+}
+
+#lokiprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#lokiprofile .percentbar span.bar3{
+    width: 20%;
+}
+
+#lokiprofile .percentbar span.bar4{
+    width: 40%;
+}
+
+#blackwidowprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#blackwidowprofile .percentbar span.bar2{
+    width: 20%;
+}
+
+#blackwidowprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#blackwidowprofile .percentbar span.bar4{
+    width: 40%;
+}
+
+#antmanprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#antmanprofile .percentbar span.bar2{
+    width: 60%;
+}
+
+#antmanprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#antmanprofile .percentbar span.bar4{
+    width: 80%;
+}
+
+#blackpantherprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#blackpantherprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#blackpantherprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#blackpantherprofile .percentbar span.bar4{
+    width: 40%;
+}
+
+#mysterioprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#mysterioprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#mysterioprofile .percentbar span.bar3{
+    width: 80%;
+}
+
+#mysterioprofile .percentbar span.bar4{
+    width: 60%;
+}
+
+@media(max-width: 1000px){
+    .skillcontents img{
+        width: 60px;
+    }
+    .skillcontents{
+        margin-bottom: 12px;
+    }
+
+    #drstrangeprofile .herophoto .drstrangeimg{
+        width: 800px;
+        margin: 0 140px 40px 0;
+    }
+    #lokiprofile .herophoto .lokiimg{
+        width: 800px;
+        margin: 0 120px 0 0;
+    }
+    #blackwidowprofile .herophoto .blackwidowimg{
+        width: 800px;
+        margin: 0 150px 30px 0;
+    }
+    #antmanprofile .herophoto .antmanimg{
+        width: 800px;
+        margin: 0 150px 10px 0;
+    }
+    #blackpantherprofile .herophoto .blackpantherimg{
+        width: 800px;
+        margin: 0 150px 10px 0;
+    }
+    #mysterioprofile .herophoto .mysterioimg{
+        width: 760px;
+        margin: 0 150px 0 0;
+    }
+}
