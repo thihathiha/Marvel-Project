@@ -445,7 +445,7 @@ header small{
         display: none;
     }
 
-    #ironmanprofile, #captainamericaprofile, #drstrangeprofile, #hulkprofile, #mantisprofile, #rocketprofile, #thanosprofile, #spidermanprofile, #lokiprofile, #starlordprofile, #grootprofile, #blackwidowprofile, #scarletwitchprofile, #visionprofile, #thorprofile, #wintersoldierprofile, #antmanprofile, #ronanprofile, #blackpantherprofile, #deadpoolprofile, #colossusprofile, #mysterioprofile, #ancientoneprofile, #captainmarvelprofile, #falconprofile, #ironfistprofile, #ebonymawprofile, #yonduprofile, #sandmanprofile, #hawkeyeprofile{
+    #ironmanprofile{
         opacity: 0;
     }
 }
