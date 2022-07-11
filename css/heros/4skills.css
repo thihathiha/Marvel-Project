@@ -100,6 +100,91 @@
     display: none;
 }
 
+#ancientoneprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#falconprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#ebonymawprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#sandmanprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
+#thanosprofile{
+    font-family: 'Finlandica', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/heroprofilebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    display: none;
+}
+
 .skillcontents{
     display: flex;
 
@@ -110,7 +195,7 @@
     width: 80px;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
 
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
 }
@@ -145,6 +230,31 @@
 #mysterioprofile .herophoto .mysterioimg{
     width: 1100px;
     margin: 110px 0 0 0;
+}
+
+#ancientoneprofile .herophoto .ancientoneimg{
+    width: 1050px;
+    margin: 70px 0 0 0;
+}
+
+#falconprofile .herophoto .falconimg{
+    width: 1000px;
+    margin: 10px 30px 0 0;
+}
+
+#ebonymawprofile .herophoto .mawimg{
+    width: 1000px;
+    margin: 80px 0 0 0;
+}
+
+#sandmanprofile .herophoto .sandmanimg{
+    width: 1050px;
+    margin: 80px 0 0 0;
+}
+
+#thanosprofile .herophoto .thanosimg{
+    width: 1050px;
+    margin: 80px 0 0 0;
 }
 
 /* Percent bar  */
@@ -245,6 +355,86 @@
     width: 60%;
 }
 
+#ancientoneprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#ancientoneprofile .percentbar span.bar2{
+    width: 65%;
+}
+
+#ancientoneprofile .percentbar span.bar3{
+    width: 100%;
+}
+
+#ancientoneprofile .percentbar span.bar4{
+    width: 80%;
+}
+
+#falconprofile .percentbar span.bar1{
+    width: 80%;
+}
+
+#falconprofile .percentbar span.bar2{
+    width: 60%;
+}
+
+#falconprofile .percentbar span.bar3{
+    width: 40%;
+}
+
+#falconprofile .percentbar span.bar4{
+    width: 40%;
+}
+
+#ebonymawprofile .percentbar span.bar1{
+    width: 60%;
+}
+
+#ebonymawprofile .percentbar span.bar2{
+    width: 40%;
+}
+
+#ebonymawprofile .percentbar span.bar3{
+    width: 40%;
+}
+
+#ebonymawprofile .percentbar span.bar4{
+    width: 100%;
+}
+
+#sandmanprofile .percentbar span.bar1{
+    width: 60%;
+}
+
+#sandmanprofile .percentbar span.bar2{
+    width: 80%;
+}
+
+#sandmanprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#sandmanprofile .percentbar span.bar4{
+    width: 35%;
+}
+
+#thanosprofile .percentbar span.bar1{
+    width: 100%;
+}
+
+#thanosprofile .percentbar span.bar2{
+    width: 60%;
+}
+
+#thanosprofile .percentbar span.bar3{
+    width: 60%;
+}
+
+#thanosprofile .percentbar span.bar4{
+    width: 60%;
+}
+
 @media(max-width: 1000px){
     .skillcontents img{
         width: 60px;
@@ -277,4 +467,163 @@
         width: 760px;
         margin: 0 150px 0 0;
     }
+    #ancientoneprofile .herophoto .ancientoneimg{
+        width: 780px;
+        margin: 0 130px 25px 0;
+    }
+    #falconprofile .herophoto .falconimg{
+        width: 760px;
+        margin: 0 140px 90px 0;
+    }
+    #ebonymawprofile .herophoto .mawimg{
+        width: 780px;
+        margin: 0 140px 30px 0;
+    }
+    #sandmanprofile .herophoto .sandmanimg{
+        width: 780px;
+        margin: 0 100px 20px 0;
+    }
+    #thanosprofile .herophoto .thanosimg{
+        width: 800px;
+        margin: 0 140px 25px 0;
+    }
+
+    /* for thanos  */
+    #thanosprofile .skillthanostext2, #thanosprofile .skillthanostext3, #thanosprofile .skillthanostext4, #thanosprofile .skillthanostext5{
+       margin-top: 0;
+    }
+
+    #thanosprofile .skilltext2, #thanosprofile .skilltext3, #thanosprofile .skilltext4, #thanosprofile .skilltext5{
+       position: absolute;
+       left: 50%;
+       top: -6%;
+
+       transform: translate(-50%);
+    }
+
+    #thanosprofile .skilltext2 small, #thanosprofile .skilltext3 small, #thanosprofile .skilltext4 small, #thanosprofile .skilltext5 small{        
+        bottom: -21%;
+    }
+
+    #thanosprofile .skillcontents .gauntlet{
+        margin: 5px 0;
+    }
+
+    #thanosprofile .skillcontents .gauntlet .basic, #thanosprofile .skillcontents .gauntlet .stones{
+        width: 120px;
+        height: 45px;
+    }
+
+    #thanosprofile .skillcontents .gauntlet .stones .stoneimg{
+        width: 18px;
+        object-fit: contain;
+    }
+    
+    #thanosprofile .skillcontents .gauntlet .stones .soulstone{
+        width: 26px;
+    }
+
+    #thanosprofile .skillcontents .gauntlet h3{
+        font-size: 1rem;
+        margin: 0;
+    }
+    #thanosprofile .skillcontents .gauntlet span{
+        font-size: 0.8rem;
+        color: #ccc;
+    }
+
+    #thanosprofile .skillcontents .gauntlet .activestone{
+        border: 1.9px solid #eee;
+    }
 }
+
+/* For Thanos */
+
+
+.skillthanos2 , .skillthanos3 , .skillthanos4, .skillthanos5{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+
+    z-index: 2;
+}
+
+.skilltextthanos2, .skilltextthanos3, .skilltextthanos4{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.skillthanostext2, .skillthanostext3, .skillthanostext4, .skillthanostext5{
+    margin-top: 50px;
+}
+
+
+
+/* For Thanos's Gauntlet */
+.skillcontents .gauntlet{
+    display: flex;
+    align-items: center;
+
+    margin: 10px 0;
+}
+
+.skillcontents .gauntlet .basic{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(256,256,256,0.1);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillcontents .gauntlet .stones{
+    width: 220px;
+    height: 60px;
+    background-color: rgba(256,256,256,0.1);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.skillcontents .gauntlet .stones .stoneimg{
+    width: 28px;
+    object-fit: contain;
+}
+
+.skillcontents .gauntlet .stones .soulstone{
+    width: 42px;
+}
+
+.skillcontents .gauntlet h3{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.skillcontents .gauntlet span{
+    color: #ccc;
+}
+
+.skillcontents .gauntlet .activestone{
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid #eee;
+}
+
+.skillcontents .stonestext{
+    display: none;
+}
+

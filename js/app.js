@@ -672,4 +672,305 @@ $(document).ready(function(){
         $(".firstj").hide();
     });
 
+    // Ancient One Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#ancientoneprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros23").click(function(){
+        $("#ancientoneprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+     // Falcon Profile 
+     $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#falconprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros25").click(function(){
+        $("#falconprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Ebony Maw Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#ebonymawprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros27").click(function(){
+        $("#ebonymawprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Sandman Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#sandmanprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros29").click(function(){
+        $("#sandmanprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // Thanos Profile 
+    $(".backbtn").click(function(){
+        $(".skilltexttext1").hide();
+        $(".skilltexttext2").hide();
+        $(".skilltexttext3").hide();
+        $(".skilltexttext4").hide();
+        $(".skilltexttext5").hide();
+        $("#thanosprofile").hide();  
+        $("header").show();
+        $(".header").show();
+        $(".firstj").show();
+    });
+
+    $(".heros7").click(function(){
+        $("#thanosprofile").show();   
+        $("header").hide();
+        $(".header").hide();
+        $(".firstj").hide();
+    });
+
+    // For Thanos's Skills 
+
+    // Skill-1 icon
+    $(".skillicon1").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skilltexttext1").removeClass("skilltextcontrol");
+
+        $(".skilltexttext1").show();  
+
+        // change from other icons 
+        $(".skillthanos2").hide();
+        $(".skilliconthanos2").removeClass("skillbtn");
+
+        $(".skillthanos3").hide();
+        $(".skilliconthanos3").removeClass("skillbtn");
+
+        $(".skillthanos4").hide();
+        $(".skilliconthanos4").removeClass("skillbtn");
+
+        $(".skillthanos5").hide();
+        $(".skilliconthanos5").removeClass("skillbtn");
+    });
+
+     // return home 
+     $(".skilltexttext1").click(function(){
+        $(this).hide();
+        $(".skillicon1").removeClass("skillbtn");
+    });
+
+    // Skill-2 icon 
+    $(".skilliconthanos2").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skillthanos2").removeClass("skilltextcontrol");
+        $(".skillthanos2").show();
+
+        $(".skilltextthanos2").show();  
+        $(".basic").addClass("activestone");
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skillthanos3").hide();
+        $(".skilliconthanos3").removeClass("skillbtn");
+
+        $(".skillthanos4").hide();
+        $(".skilliconthanos4").removeClass("skillbtn");
+
+        $(".skillthanos5").hide();
+        $(".skilliconthanos5").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltextthanos2").click(function(){
+        $(this).hide();
+        $(".skillthanos2").hide();
+        $(".skilliconthanos2").removeClass("skillbtn");
+
+        $(".stones1").removeClass("activestone");
+        $(".stones2").removeClass("activestone");
+
+        $(".basictext").removeClass("stonestext");
+        $(".stone1text").addClass("stonestext");
+        $(".stone2text").addClass("stonestext");
+    });
+
+    // Skill-3 icon 
+    $(".skilliconthanos3").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skillthanos3").removeClass("skilltextcontrol");
+        $(".skillthanos3").show();
+
+        $(".skilltextthanos3").show();  
+        $(".basic").addClass("activestone");
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skillthanos2").hide();
+        $(".skilliconthanos2").removeClass("skillbtn");
+
+        $(".skillthanos4").hide();
+        $(".skilliconthanos4").removeClass("skillbtn");
+
+        $(".skillthanos5").hide();
+        $(".skilliconthanos5").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltextthanos3").click(function(){
+        $(this).hide();
+        $(".skillthanos3").hide();
+        $(".skilliconthanos3").removeClass("skillbtn");
+
+        $(".stones1").removeClass("activestone");
+        $(".stones2").removeClass("activestone");
+
+        $(".basictext").removeClass("stonestext");
+        $(".stone1text").addClass("stonestext");
+        $(".stone2text").addClass("stonestext");
+    });
+
+     // Skill-4 icon 
+     $(".skilliconthanos4").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skillthanos4").removeClass("skilltextcontrol");
+        $(".skillthanos4").show();
+
+        $(".skilltextthanos4").show();  
+        $(".basic").addClass("activestone");
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skillthanos2").hide();
+        $(".skilliconthanos2").removeClass("skillbtn");
+
+        $(".skillthanos3").hide();
+        $(".skilliconthanos3").removeClass("skillbtn");
+
+        $(".skillthanos5").hide();
+        $(".skilliconthanos5").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skilltextthanos4").click(function(){
+        $(this).hide();
+        $(".skillthanos4").hide();
+        $(".skilliconthanos4").removeClass("skillbtn");
+
+        $(".stones1").removeClass("activestone");
+        $(".stones2").removeClass("activestone");
+
+        $(".basictext").removeClass("stonestext");
+        $(".stone1text").addClass("stonestext");
+        $(".stone2text").addClass("stonestext");
+    });
+
+    // Skill-5 icon 
+    $(".skilliconthanos5").click(function(){
+        $(this).addClass("skillbtn");
+        $(".skillthanos5").removeClass("skilltextcontrol");
+        $(".skillthanos5").show();
+
+         // change from other icons 
+         $(".skilltexttext1").hide();
+         $(".skillicon1").removeClass("skillbtn");
+
+         $(".skillthanos2").hide();
+        $(".skilliconthanos2").removeClass("skillbtn");
+
+        $(".skillthanos3").hide();
+        $(".skilliconthanos3").removeClass("skillbtn");
+
+        $(".skillthanos4").hide();
+        $(".skilliconthanos4").removeClass("skillbtn");
+    });
+
+    // return home 
+    $(".skillthanos5").click(function(){
+        $(this).hide();
+        $(".skillthanos5").hide();
+        $(".skilliconthanos5").removeClass("skillbtn");
+    });
+
+
+    // For Thanos's Gauntlet 
+    $(".basic").click(function(){
+        $(this).addClass("activestone");
+        $(".stones1").removeClass("activestone");
+        $(".stones2").removeClass("activestone");
+
+        $(".basictext").removeClass("stonestext");
+        $(".stone1text").addClass("stonestext");
+        $(".stone2text").addClass("stonestext");
+    });
+
+    $(".stones1").click(function(){
+        $(this).addClass("activestone");
+        $(".basic").removeClass("activestone");
+        $(".stones2").removeClass("activestone");
+
+        $(".stone1text").removeClass("stonestext");
+        $(".basictext").addClass("stonestext");
+        $(".stone2text").addClass("stonestext");
+    });
+
+    $(".stones2").click(function(){
+        $(this).addClass("activestone");
+        $(".basic").removeClass("activestone");
+        $(".stones1").removeClass("activestone");
+
+        $(".stone2text").removeClass("stonestext");
+        $(".stone1text").addClass("stonestext");
+        $(".basictext").addClass("stonestext");
+    });
+
+
+
 });

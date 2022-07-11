@@ -464,7 +464,7 @@
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
 
     box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.4);
 }
@@ -479,7 +479,7 @@
 .skilltexttext1, .skilltexttext2, .skilltexttext3, .skilltexttext4, .skilltexttext5{
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
 
     position: absolute;
     left: 0;
@@ -487,6 +487,8 @@
 
     display: flex;
     justify-content: center;
+
+    z-index: 2;
 }
 
 .skilltext1, .skilltext2, .skilltext3, .skilltext4, .skilltext5{
@@ -896,21 +898,21 @@
     .skilltext1 span{
         font-size: 1.5rem;
     }
-    .skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p{
+    .skilltext1 p, .skilltext2 p, .skilltext3 p, .skilltext4 p, .skilltext5 p{
         font-size: 1rem;
         margin-top: 20px;
     }
-    .skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle{
+    .skilltext2 .skilltitle, .skilltext3 .skilltitle, .skilltext4 .skilltitle, .skilltext5 .skilltitle{
         font-size: 1.5rem;
         color: antiquewhite;
     }
-    .skilltext1, .skilltext2, .skilltext3, .skilltext4{
+    .skilltext1, .skilltext2, .skilltext3, .skilltext4, .skilltext5{
         padding: 40px 25px;
 
         display: block;
     }
 
-    .skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small{
+    .skilltext1 small, .skilltext2 small, .skilltext3 small, .skilltext4 small, .skilltext5 small{
         color: #888;
     
         position: absolute;
